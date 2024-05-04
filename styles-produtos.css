@@ -1,0 +1,46 @@
+/* Estilos para a tabela de preços */
+.tabela-precos {
+    width: 100%;
+    margin-top: 20px;
+    background-color: #f5eef8; /* Fundo roxinho suave */
+    color: #333; /* Texto preto */
+    border-radius: 5px; /* Borda arredondada */
+    border-collapse: separate; /* Bordas separadas */
+    border-spacing: 0;
+}
+
+.tabela-precos td {
+    padding: 15px;
+    border-bottom: 1px solid #ddd; /* Cor da borda */
+}
+
+.tabela-precos td:first-child {
+    font-weight: bold;
+}
+
+/* Estilos para o botão Comprar */
+.btn-comprar {
+    background-color: #6a0dad; /* Cor de fundo roxo */
+    color: #fff; /* Texto branco */
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px; /* Borda arredondada */
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.btn-comprar:hover {
+    background-color: #8e44ad; /* Cor de fundo roxo mais escura ao passar o mouse */
+}
+
+/* Estilos para o cabeçalho */
+.header {
+    background-color: #8e44ad; /* Fundo roxo mais forte */
+    color: #fff; /* Texto branco */
+    padding: 20px;
+}
+
+.header .logo {
+    font-size: 24px;
+    font-weight: bold;
+}
